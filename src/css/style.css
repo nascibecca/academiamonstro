@@ -1,0 +1,90 @@
+:root {
+    --cor-principal: #d23669;
+    --cor-titulo: #000;
+    --cor-texto: gray; 
+    --cor-fundo: #fff;
+}
+
+.dark {
+    --cor-principal: #00ff95;
+    --cor-titulo: #fff;
+    --cor-texto: #fff; 
+    --cor-fundo: #000;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Reduzindo a margem inferior */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão */
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--cor-principal);
+    padding: 10px 20px; /* Ajuste do padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d23669; /* Altera a cor ao passar o mouse */
+}
+
+p {
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    background: var(--cor-fundo) ;
+    width: 100%;
+    min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px;
+}
+
+img {
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+section {
+    width: 100%;
+    max-width: 800px; /* Define uma largura máxima para a seção */
+    margin-top: 20px; /* Adiciona espaço acima da seção */
+}
+
+.habilidades {
+    color: var(--cor-principal);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0; /* Remove as margens padrão do body */
+}
+ 
+.monstros {
+    display: grid;
+    width: 100%
+    grid-template-columns: 1fr; 
+    gap: 30px; /* Define o espaçamento entre os monstros */
+    justify-content: center;
+    margin-top: 25px; /* Adiciona espaço acima dos monstros */
+}
