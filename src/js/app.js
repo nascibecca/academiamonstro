@@ -26,6 +26,34 @@ const monstros = [
         altura: 1.4,
         habilidades: 'Canção da Natureza - Canta uma melodia que promove o crescimento das plantas ao redor e fortalece os aliados.',
         foto: 'https://robohash.org/Florcanto'
+    },
+    {
+        id: 5,
+        nome: 'Techtron',
+        altura: 6,
+        habilidades: 'Especialista em tecnologia avançada, capaz de hackear sistemas e desenvolver soluções de software complexas.',
+        foto: 'https://robohash.org/Techtron'
+    },
+    {
+        id: 6,
+        nome: 'Mecanix',
+        altura: 4.5,
+        habilidades: 'Um mestre em engenharia mecânica, habilidoso na construção e manutenção de estruturas físicas, desde pequenos dispositivos até grandes máquinas industriais.',
+        foto: 'https://robohash.org/Mecanix'
+    },
+    {
+        id: 7,
+        nome: 'Cibersurge',
+        altura: 7.4,
+        habilidades: 'Especializado em cibersegurança, capaz de detectar e neutralizar ameaças digitais, além de fortalecer sistemas contra ataques de hackers.',
+        foto: 'https://robohash.org/Cibersurge'
+    },
+    {
+        id: 8,
+        nome: 'ExploraBot',
+        altura: 8.5,
+        habilidades: 'Projetado para exploração em ambientes hostis, como planetas distantes ou profundezas oceânicas, equipado com sensores avançados e capacidades de locomoção versáteis.',
+        foto: 'https://robohash.org/ExploraBot'
     }
 ];
 
